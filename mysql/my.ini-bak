@@ -1,0 +1,28 @@
+[mysqld]
+
+
+
+character-set-server=utf8
+bind-address = 127.0.0.1
+# Remove leading # and set to the amount of RAM for the most important data
+# cache in MySQL. Start at 70% of total RAM for dedicated server, else 10%.
+# innodb_buffer_pool_size = 128M
+
+# Remove leading # to turn on a very important data integrity option: logging
+# changes to the binary log between backups.
+# log_bin
+
+# These are commonly set, remove the # and set as required.
+  basedir = D:/opt/Mysql/mysql-5.6.16-winx64/
+  datadir = D:/opt/Mysql/mysql-5.6.16-winx64/data/
+# port = .....
+# server_id = .....
+
+#no-auto-rehash
+#default-character-set=utf8
+
+skip-innodb
+[WinMySQLAdmin]
+Server=D:/opt/Mysql/mysql-5.6.16-winx64/bin/mysqld-nt.exe
+
+

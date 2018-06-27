@@ -1,0 +1,8 @@
+常用mysql配置
+
+环境变量
+MYSQL_HOME
+D:\develop\opt\mysql\mysql-5.6.16-winx64
+
+Path
+C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%MYSQL_HOME%\bin;D:\install\Python3.5;D:\install\Python3.5\Scripts\;%MAVEN_HOME%\bin
